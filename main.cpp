@@ -293,8 +293,6 @@ int Meniu::afisare_meniu()
         }
         while(x < 1 || x > 5);
     }
-    //while(x>0 && x<6)
-    //{
         switch(x)
         {
             case 1:
@@ -328,13 +326,12 @@ int Meniu::afisare_meniu()
                 {
                         return 0;
                 }
-        //}
 
      }
      cout << endl;
      Meniu::afisare_meniu();
 }
-///SA SCHIMBI FUNCTIA DE ARIE CA SA MEARGA CA LA PROFA SI SA TERMINI CLASA MENIU///
+
 int main()
 {
     Meniu m;
